@@ -1,0 +1,115 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 89px;
+    background: #000;
+    color: #FFFF;
+}
+nav ul li{
+    padding-left:50px;
+}
+.brand img{
+    width: 85px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 2.5rem;
+}
+.container{
+    min-height: 75vh;
+    background-color: #000;
+    color: #FFFF;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    margin: 25px auto;
+    width: 70%;
+    border-radius: 15px;
+    padding: 34px;
+    background-image: url("/image/Spotify/bg8.png") ;
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-position: right;
+    background-position:100% 100%;
+    background-clip: border-box;
+    
+
+}
+.songItem{
+   height: 50px;
+   display: flex;
+   background-color: #fff;
+   width: 80%;
+   color: #000;
+   margin: 12px 0px;
+   justify-content:space-around;
+   align-items: center;
+   border-radius: 35px;
+   
+ 
+}
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 35px;
+}    
+.bottom{
+    position: sticky;
+    height: 140px;
+    color: #FFFF;
+    flex-direction: column;
+    background: #000;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .bottom input{
+    width: 700px;
+   
+ 
+} */
+.icons{
+    margin-top: 15px;
+    padding: 0 20px;
+   
+}
+.icons i{
+    cursor: pointer;
+    
+}
+#myprogressbar{
+    width: 75vw;
+    cursor: pointer;
+
+
+}
+.timestamp{
+    margin: 0 23px;
+
+}
+.songInfo{
+    position:absolute;
+    left: 10vw;
+}
+.songInfo img{
+   opacity: 0;
+   font-family: 'Ubuntu', sans-serif;
+   transition:opacity 1s ease-in ;
+   
+}
+/* Anand singh */
